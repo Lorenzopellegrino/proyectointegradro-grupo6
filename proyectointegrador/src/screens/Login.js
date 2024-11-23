@@ -24,6 +24,7 @@ class Login extends Component {
       .then(() => this.props.navigation.navigate("Menu"))
       .catch((error) => this.setState({ error: "Fallo en el login" }));
   }
+  
 
   render() {
     return (
