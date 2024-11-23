@@ -10,7 +10,8 @@ class Register extends Component {
       password: "",
       userName: "",
       registered: false,
-      error: ""
+      error: "",
+      CreatedAt: "",
     };
   }
 
